@@ -1,5 +1,7 @@
 # Guía para alineamiento 03, 04, 05, 06, 07
 
++ Alineamiento 03 Juicer
+
 ```Juicer``` es un pipeline automatizado desarrollado por el grupo de Dekker y Aiden Labs, diseñado para procesar datos de ```Hi-C``` desde los archivos ```FASTQ``` hasta los mapas de contacto ```.hic```. Lo hace todo: alineamiento, filtrado, deduplicación, construcción del grafo de contacto, generación de mapas ```.hic```, etc.
 
 Antes iniciar el protocolo debemos entrar al ambiente de conda ```samtools``` ya que ```juicer``` lo ocupa cono una de sus librerias principales luego de realizar el alineamiento. Además, necesita archivos de entrada con formato archivos ```*.fastq.gz``` emparejados (R1, R2), un archivo de restricción, un archivo ```.chrom.sizes``` y un archivo ```*.fa``` que corresponde al gend de referencia.
